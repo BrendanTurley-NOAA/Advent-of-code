@@ -17,7 +17,8 @@ test <- c('L68',
           'L99',
           'R14',
           'L82')
-setwd("C:/Users/brendan.turley/Desktop")
+
+setwd("C:/Users/brendan.turley/Documents/R_projects/Advent-of-code/2025/inputs")
 test <- read.table('aoc_d01.txt') |> unlist()
 dial <- c(init,
           rep(NA,length(test)))

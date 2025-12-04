@@ -62,4 +62,6 @@ for(i in 1:length(test)){
 }
 options(scipen=999) 
 
-sum(out) |> format(scientific = FALSE)
+sum(out) |> format(scientific = FALSE) # test case = 3121910778619
+# 3121910778619
+# my (wrong) answer: 170732263058541

@@ -48,3 +48,14 @@ for(i in 1:length(test)){
   }
 }
 n # my right answer: 558
+
+
+
+# Part 2 ------------------------------------------------------------------
+
+
+mapply(function(x,y) length(x:y), test_ids[,1], test_ids[,2]) |> sum()
+
+test_ids[4,1] - test_ids[,2] ### 
+test_ids[4,1] < test_ids[,2] & test_ids[4,1] > test_ids[,1]
+union(test_ids[4,1]:test_ids[4,2],test_ids[2,1]:test_ids[2,2])      
